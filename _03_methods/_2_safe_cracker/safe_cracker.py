@@ -9,8 +9,10 @@ wekncrzpasfdkjhcfjse = random.randint(0, 999)
 def crack_the_safe():
     # TODO: Your mission: Use the try_code method to crack the safe
     #  by trying all possible combinations
-
-    pass
+    guess = 0
+    while True:
+        try_code(guess)
+        guess += 1
 
 
 def try_code(guess):
